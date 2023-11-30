@@ -1,0 +1,43 @@
+[
+    {
+      "id": "1",
+      "author_name": "Admin",
+      "author_image": "admin.jpg",
+      "email": "admin@example.com",
+      "title": "Important Announcement",
+      "description": "This is an important announcement from the administrator. Please read for important updates and information."
+    },
+    {
+      "id": "2",
+      "author_name": "Marketing Team",
+      "author_image": "marketing_team.jpg",
+      "email": "marketing@example.com",
+      "title": "Upcoming Event",
+      "description": "The marketing team is excited to announce an upcoming event. Stay tuned for details and participation information."
+    },
+    {
+      "id": "3",
+      "author_name": "Development Team",
+      "author_image": "development_team.jpg",
+      "email": "dev@example.com",
+      "title": "Software Update",
+      "description": "The development team has released a software update. Learn about the latest features and improvements in this release."
+    },
+    {
+      "id": "4",
+      "author_name": "HR Department",
+      "author_image": "hr_department.jpg",
+      "email": "hr@example.com",
+      "title": "Employee Recognition",
+      "description": "The HR department acknowledges and recognizes outstanding employees. Discover who has been recognized for their contributions."
+    },
+    {
+      "id": "5",
+      "author_name": "Finance Team",
+      "author_image": "finance_team.jpg",
+      "email": "finance@example.com",
+      "title": "Budget Update",
+      "description": "The finance team provides an update on the budget. Gain insights into financial planning and allocations."
+    }
+  ]
+  

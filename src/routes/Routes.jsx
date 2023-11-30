@@ -28,12 +28,12 @@ import Payment from "../pages/Home/Payment/Payment";
         {
             path: '/',
             element: <Home></Home>,
-            loader: () => fetch('http://localhost:5000/postCount')
+            loader: () => fetch('https://online-forum-server-beta.vercel.app/postCount')
         },
         {
            path: '/postDetails/:id',
            element: <PostDetails></PostDetails>,
-           loader: ({params}) => fetch(`http://localhost:5000/post/post_time/id/${params.id}`)
+           loader: ({params}) => fetch(`https://online-forum-server-beta.vercel.app/post/post_time/id/${params.id}`)
         },
         {
             path: '/joinUs',
@@ -49,8 +49,9 @@ import Payment from "../pages/Home/Payment/Payment";
         },
         {
             path: '/payment',
-            element: <PrivateRoute><Payment></Payment></PrivateRoute>
-        }
+            element: <Payment></Payment>
+        },
+        
       ]
     },
     {

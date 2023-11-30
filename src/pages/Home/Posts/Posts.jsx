@@ -15,7 +15,7 @@ const Posts = () => {
     console.log(postPages);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/post/post_time?page=${currentPage}&size=${itemsPerPage}`)
+        fetch(`https://online-forum-server-beta.vercel.app/post/post_time?page=${currentPage}&size=${itemsPerPage}`)
             .then(res => res.json())
             .then(data => {
                 setAllPosts(data);
